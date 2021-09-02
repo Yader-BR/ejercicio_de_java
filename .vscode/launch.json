@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Menu",
+            "request": "launch",
+            "mainClass": "Menu",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Orden",
+            "request": "launch",
+            "mainClass": "Orden",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch clase",
+            "request": "launch",
+            "mainClass": "clase",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        },
+        {
+            "type": "java",
+            "name": "Launch intento",
+            "request": "launch",
+            "mainClass": "intento",
+            "projectName": "ejercicio_de_java_cc060f6b"
+        }
+    ]
+}

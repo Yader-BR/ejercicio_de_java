@@ -2,18 +2,29 @@ import java.util.Scanner;
 
 public class App {
 public static Scanner teclado; 
-public static Double[] notas ; 
+public static String nombre ; 
+public static int num1,num2; 
     public static void main(String[] args) throws Exception {
         teclado= new Scanner (System.in);
-        notas= new Double[5];
-        for(int i=0;i<5;i++){
-            System.out.println("Ingrese las notas");
-            notas[i]=teclado.nextDouble(); 
-        }
-        for(int j=0;j<5;j++){
-            System.out.println("Esta es la nota de la posicion"+j+"y su nota es"+notas[j]); 
-        }
-        
-        
+      nombre=texto("ingrese su nombre");
+      num1=suma("ingrese el primer numero");
+      num2=suma("Ingrese el segundo numero");  
+      resultado(num1,num2,nombre); 
+
+
     }
+    public static String texto(String menssage){
+        System.out.println(menssage);
+        return teclado.nextLine();
+    }
+    public static int suma(String menssage){
+        System.out.println(menssage);
+        return teclado.nextInt(); 
+    }
+   public static void resultado(int numero1,int numero2,String nombreuser){
+       System.out.println(nombreuser+" La suma es:"+(numero1+numero2));
+   
+
+   }
 }
+
